@@ -44,9 +44,9 @@ void loadStudents() {
 
     // If file is empty, add test students
     if (students.empty()) {
-        students.push_back(Student("Joseph", "EEE001"));
-        students.push_back(Student("Baanza", "EEE002"));
-        students.push_back(Student("Bright", "EEE003"));
+        students.push_back(Student("Lena", "EEE001"));
+        students.push_back(Student("Kwametse", "EEE002"));
+        students.push_back(Student("Ayisha", "EEE003"));
 
         ofstream out("students.txt");
         for (auto &s : students) {
